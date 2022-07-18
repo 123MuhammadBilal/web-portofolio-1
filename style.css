@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+section {
+  padding-top: 5rem;
+}
+
+/* =-------------------- NAVBAR --------------------- */
+#navbar .navbar-brand {
+  color: #ffffff;
+}
+#navbar .nav-link {
+  color: #ffff;
+  font-size: 20px;
+}
+#navbar .navbar-nav a:hover {
+  color: #fded0a;
+}
+
+/* ---------------- JUMBOTRON ------------------ */
+#jumbotron .jumbotron {
+  margin-top: -170px;
+  padding-top: 12rem;
+  background-color: #473737;
+}
+#jumbotron .jumbotron h4 {
+  margin-top: -17px;
+}
+
+/* ------------------ ABOUT ------------- */
+#about {
+  position: relative;
+  margin-top: -70px;
+}
+
+#about h4 {
+  text-indent: 70px;
+  text-align: justify;
+}
+
+/* -----------------EXPERIENCE ---------------- */
+#experience {
+  margin-top: -70px;
+  background-color: #473737;
+}
+
+#experience .card {
+  text-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*----------------------- PROJECT --------------------- */
+#project {
+  position: relative;
+  margin-top: -70px;
+}
+#project .carousel-item h5 {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 30px;
+}
+#project .carousel-control-prev {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 12px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+#project .carousel-control-next {
+  /* position: absolute; */
+  margin-top: 250px;
+  margin-right: 12px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+#project h5 {
+  text-align: justify;
+  text-indent: 20px;
+}
+
+/* ---------------- FOOTER --------------- */
+footer {
+  background-color: #473737;
+  margin-top: -50px;
+}
+footer h5 {
+  color: #fded0a;
+  padding-bottom: 5px;
+}
+footer .copyr {
+  margin-top: 20px;
+}
